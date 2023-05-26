@@ -36,8 +36,7 @@ h3 {
 p {
   margin-top: 30px;
   font-size: 14px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-    'Lucida Sans', Arial, sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 .btn {
@@ -54,7 +53,7 @@ p {
 }
 
 img {
-  width: 25em;
+  width: 100%;
 }
 
 .main-container {
@@ -102,7 +101,7 @@ img {
 }
 
 .container .summer .image {
-  width: 800px;
+  width: 400px;
   height: 600px;
 }
 
