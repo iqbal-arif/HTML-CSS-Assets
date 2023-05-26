@@ -48,3 +48,21 @@ img {
   display: flex;
   right: 4em;
 }
+
+.main-nav .ul__second li {
+  margin-left: 1.5em;
+}
+
+.main-nav .ul__second #border {
+  border: 1px solid crimson;
+  padding: 0 15px;
+  align-items: center;
+}
+
+.container {
+}
+
+.container .summer {
+  width: 100vw;
+  height: 100vh;
+}
