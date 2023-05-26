@@ -47,12 +47,22 @@ p {
   background-color: #95a5a6;
 }
 img {
-  width: 100%;
+  width: 25em;
 }
 
+.main-container {
+  width: 100vw;
+  height: 100vh;
+}
+
+.logo {
+  border: 1px solid blueviolet;
+  padding: 0 15px;
+}
 .main-nav {
   position: fixed;
   display: flex;
+  padding: 2em 4em;
 }
 
 .main-nav .ul__second {
@@ -84,7 +94,7 @@ img {
 }
 
 .container .summer .image {
-  width: 400px;
+  width: 800px;
   height: 600px;
 }
 
