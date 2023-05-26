@@ -74,7 +74,8 @@ img {
 .main-container {
   width: 100vw;
   height: 100vh;
- 
+  overflow-x: scroll;
+  overflow-y: hidden;
 }
 /* Creates a overlay with pseudo element */
 .main-container:after {
@@ -140,8 +141,7 @@ img {
   text-align: center;
   z-index: 10;
 }
-/* Hides the scroll bar */ */
-::-webkit-scrollbar {
+/* Hides the scroll bar */
+*/ ::-webkit-scrollbar {
   display: none;
- }
-/*
+}
