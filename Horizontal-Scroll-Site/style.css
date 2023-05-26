@@ -42,3 +42,9 @@ img {
   position: fixed;
   display: flex;
 }
+
+.main-nav .ul__second {
+  position: fixed;
+  display: flex;
+  right: 4em;
+}
