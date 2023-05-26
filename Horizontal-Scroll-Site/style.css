@@ -13,7 +13,7 @@ body,
 }
 
 li {
-  /* list-style: none; */
+  list-style: none;
   transition: all 0.4s;
   z-index: 15;
 }
@@ -60,7 +60,7 @@ p {
   background-color: #95a5a6;
 }
 
-img {
+.image img {
   width: 100%;
 }
 
@@ -86,7 +86,8 @@ img {
   height: 100%;
   background-color: rgb(128, 255, 212, 0.3);
 } */
-#logo {
+#logo img {
+  width: 200px;
   height: 150px;
   /* border: 1px solid blueviolet; */
   padding: 0 5px;
