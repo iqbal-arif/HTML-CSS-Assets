@@ -75,6 +75,8 @@ p {
   width: 100vw;
   height: 100vh;
   display: flex;
+  overflow-x: scroll;
+  overflow-y: hidden;
 }
 /* Creates a overlay with pseudo element */
 /* .main-container:after {
@@ -97,7 +99,7 @@ p {
 .main-nav {
   position: fixed;
   display: flex;
-  padding: 2em 4em;
+  padding: 0em 4em;
   z-index: 12;
 }
 
