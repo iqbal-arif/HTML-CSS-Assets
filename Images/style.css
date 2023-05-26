@@ -4,6 +4,45 @@
   padding: 0;
 }
 
+.container {
+  position: relative;
+  width: 100%;
+  display: flex;
+}
+
+.container section {
+  min-width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #66b9f0;
+}
+
+.container section:nth-child(2) {
+  background: #82f066;
+}
+.container section:nth-child(3) {
+  background: #e7f066;
+}
+.container section:nth-child(4) {
+  background: #4d57e7;
+}
+
+section .content {
+  max-width: 800px;
+  padding: 40px;
+  text-align: center;
+}
+
+.content h2 {
+  font-size: 4em;
+}
+
+.content p {
+  font-size: 1.3em;
+}
 .image-container {
   height: 100vw;
   width: 100vh;
