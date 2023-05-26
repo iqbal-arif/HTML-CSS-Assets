@@ -147,6 +147,6 @@ p {
   z-index: 10;
 }
 /* Hides the scroll bar */
-/* ::-webkit-scrollbar {
+::-webkit-scrollbar {
   display: none;
-} */
+}
