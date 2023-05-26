@@ -23,10 +23,16 @@ a {
 h1 {
   font-size: 70px;
   text-transform: uppercase;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-    'Lucida Sans', Arial, sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-weight: lighter;
+  letter-spacing: 10px;
+}
+h3 {
+  font-size: 30px;
+  font-family: 'Dancing Script', cursive;
   font-weight: lighter;
 }
+
 p {
   margin-top: 30px;
   font-size: 14px;
@@ -46,6 +52,7 @@ p {
   transform: scale(0.97);
   background-color: #95a5a6;
 }
+
 img {
   width: 25em;
 }
@@ -55,10 +62,11 @@ img {
   height: 100vh;
 }
 
-.logo {
+#logo {
   border: 1px solid blueviolet;
   padding: 0 15px;
 }
+
 .main-nav {
   position: fixed;
   display: flex;
