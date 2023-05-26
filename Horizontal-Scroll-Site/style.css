@@ -13,7 +13,7 @@ body,
 }
 
 li {
-  list-style: none;
+  /* list-style: none; */
   transition: all 0.4s;
   z-index: 15;
 }
@@ -74,11 +74,10 @@ img {
 .main-container {
   width: 100vw;
   height: 100vh;
-  overflow-x: scroll;
-  overflow-y: hidden;
+  display: flex;
 }
 /* Creates a overlay with pseudo element */
-.main-container:after {
+/* .main-container:after {
   content: '';
   position: absolute;
   top: 0;
@@ -86,10 +85,12 @@ img {
   width: 100%;
   height: 100%;
   background-color: rgb(128, 255, 212, 0.3);
-}
+} */
 #logo {
-  border: 1px solid blueviolet;
-  padding: 0 15px;
+  height: 150px;
+  /* border: 1px solid blueviolet; */
+  padding: 0 5px;
+  z-index: 20;
 }
 
 .main-nav {
@@ -116,6 +117,7 @@ img {
 }
 
 .container {
+  height: 100px;
   width: 400vw;
   display: flex;
   flex-direction: row;
@@ -130,10 +132,10 @@ img {
   padding: 0 8em;
 }
 
-.container .summer .image {
+/* .container .summer .image {
   width: 400px;
-  height: 600px;
-}
+  height: 450px;
+} */
 
 .content {
   margin-top: 50px;
@@ -142,6 +144,6 @@ img {
   z-index: 10;
 }
 /* Hides the scroll bar */
-*/ ::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
   display: none;
-}
+} */
