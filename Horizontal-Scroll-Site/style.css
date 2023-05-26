@@ -19,3 +19,26 @@ a {
   text-transform: uppercase;
   color: #000;
 }
+
+h1 {
+  font-size: 70px;
+  text-transform: uppercase;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  font-weight: lighter;
+}
+p {
+  margin-top: 30px;
+  font-size: 14px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+
+img {
+  width: 50%;
+}
+
+.main-nav {
+  position: fixed;
+  display: flex;
+}
