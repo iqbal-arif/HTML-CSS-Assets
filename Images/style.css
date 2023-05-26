@@ -31,6 +31,12 @@
   align-items: center;
 }
 
-.slide 1 {
-    sd
+.one {
+  background-color: #f06666;
+}
+.two {
+  background-color: #82f066;
+}
+.three {
+  background-color: #66b9f0;
 }
