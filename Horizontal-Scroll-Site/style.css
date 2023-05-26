@@ -76,7 +76,7 @@ p {
   height: 100vh;
   display: flex;
   overflow-x: scroll;
-  overflow-y: hidden;
+  /* overflow-y: hidden; */
 }
 /* Creates a overlay with pseudo element */
 /* .main-container:after {
@@ -121,8 +121,9 @@ p {
 
 .container {
   height: 100px;
-  width: 400vw;
+  /* width: 400vw; */
   display: flex;
+  flex-wrap: nowrap;
   flex-direction: row;
 }
 
@@ -147,6 +148,6 @@ p {
   z-index: 10;
 }
 /* Hides the scroll bar */
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
   display: none;
-}
+} */
