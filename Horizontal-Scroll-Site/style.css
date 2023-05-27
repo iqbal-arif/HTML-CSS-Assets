@@ -75,11 +75,12 @@ p {
   width: 100vw;
   height: 100vh;
   display: flex;
+  overflow: hidden;
   overflow-x: scroll;
-  /* overflow-y: hidden; */
+  overflow-y: hidden;
 }
 /* Creates a overlay with pseudo element */
-/* .main-container:after {
+.main-container:after {
   content: '';
   position: absolute;
   top: 0;
@@ -87,7 +88,7 @@ p {
   width: 100%;
   height: 100%;
   background-color: rgb(128, 255, 212, 0.3);
-} */
+}
 #logo img {
   width: 200px;
   height: 150px;
@@ -120,14 +121,19 @@ p {
 }
 
 .container {
-  height: 100px;
+  height: 100vh;
   /* width: 400vw; */
   display: flex;
   flex-wrap: nowrap;
   flex-direction: row;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .container .summer {
+  /* overflow: hidden; */
+  position: relative;
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -136,7 +142,9 @@ p {
   padding: 0 8em;
   margin-right: -50px; /* Maximum width of scrollbar */
   padding-right: 50px; /* Maximum width of scrollbar */
-  overflow-y: scroll;
+  /* overflow-y: scroll; */
+  /* overflow-x: hidden;
+  overflow-y: auto; */
 }
 
 /* .container .summer .image {
